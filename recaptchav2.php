@@ -34,5 +34,3 @@ function rev2($key,$web,$sitekey){
         return $solve["solution"]["gRecaptchaResponse"];
     endwhile;
 }
-
-print_r(rev2("3a49e3a2d875484a9ebe0f33cecd39de","https://ltcclick.com/login.php","6LeDnY4UAAAAADU25pfECqAtJp3Nf34NKs7ebR6W"));
