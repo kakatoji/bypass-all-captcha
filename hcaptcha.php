@@ -2,7 +2,7 @@
 
 require_once "curl.php";
 
-function rev3($key,$web,$sitekey){
+function hcptcha($key,$web,$sitekey){
     $ua  =["Host: api.anycaptcha.com","Content-Type: application/json"];
     $url = "https://api.anycaptcha.com";
     $data=json_encode([
